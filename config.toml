@@ -1,0 +1,10 @@
+[database]
+url = "sqlite:kore-douyo.sqlite3"
+
+[server]
+host = "0.0.0.0"
+port = 8080
+
+[debug]
+inject_sleep = true
+sleep_millis = 1000
